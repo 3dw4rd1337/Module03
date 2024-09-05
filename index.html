@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edward's Portfolio</title>
+    <style>
+      body.home {
+        background-image: url('background-home.jpg');
+        background-size: cover;
+        background-position: center;
+        font-family: Arial, sans-serif;
+        color: #2e4a62;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+      }
+
+      .content-wrapper {
+        background-color: rgba(221, 211, 211, 0.8);
+        padding: 20px;
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border-radius: 0;
+        text-align: center;
+      }
+
+      header {
+        position: relative;
+      }
+
+      header::before {
+        content: "";
+        background-image: url('image0.jpg');
+        display: block;
+        height: 200px;
+        width: 100%;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+
+      h1, h2 {
+        text-align: center;
+        margin: 10px 0;
+        color: #599dc2;
+      }
+
+      .btn {
+        background-color: #007BFF;
+        color: #fff;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        display: inline-block;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+      }
+
+      .btn:hover {
+        background-color: #0056b3;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+        height: auto;
+      }
+
+      .work-experience p, .work-experience h3 {
+        font-size: 14px;
+      }
+
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      footer ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      footer ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      footer ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body class="home">
+    <main class="content-wrapper">
+      <header>
+        <h1>Edward's Portfolio</h1>
+        <h2>Cascading Style Sheets</h2>
+
+        <p>I enjoy learning about pandas. They're gentle animals that love to eat bamboo. With their black and white fur, they always look calm and relaxed.</p>
+      </header>
+
+      <section>
+        <h2>Featured Projects</h2>
+        <p>More information at <a href="http://christinatruong.com" class="btn" target="_blank">Christina Truong</a>.</p>
+
+        <section>
+          <h3>Panda Habitat Exploration</h3>
+          <img src="placeholder images/thumbnail-1.jpg" 
+               alt="A panda sitting on a branch, looking around its environment.">
+          <p>This project shows a panda sitting on a branch, looking calm and peaceful in its home. I worked on capturing how relaxed and natural the panda looks in its habitat.</p>
+          <a href="#" class="btn" target="_blank">View project / case study</a>
+        </section>
+      </section>
+
+      <section class="work-experience">
+        <h2>Work Experience</h2>
+
+        <section>
+          <h3>Panda Caretaker</h3>
+          <p>Zoo World</p>
+          <p>9/4/2023</p>
+          <p>I took care of pandas, making sure they had food, play, and good living spaces. I also talked to visitors about why pandas are important and how we can help protect them.</p>
+        </section>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+
+        <section>
+          <h3>Wake Tech Community College - Raleigh, NC</h3>
+          <p>Panda Volunteer Program, 2024</p>
+        </section>
+      </section>
+
+      <footer>
+        <h2>Let's Keep in Touch!</h2>
+        <ul>
+          <li><a href="mailto:efuentescerroblanco@my.waketech.edu">efuentescerroblanco@my.waketech.edu</a></li>
+          <li><a href="https://www.waketech.edu/programs-courses/non-credit/workforce-training/business/animal-care" target="_blank">https://www.waketech.edu/programs-courses/non-credit/workforce-training/business/animal-care</a></li>
+          <li><a href="#" target="_blank">Twitter</a></li>
+        </ul>
+      </footer>
+    </main>
+  </body>
+</html>
